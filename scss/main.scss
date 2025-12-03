@@ -140,6 +140,11 @@ div{
 .posRel{position: relative;}
 .posAbs{position: absolute;}
 
+.bordered-radius{
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
 .btn-tmco{
 	font-size: 18px;
 	text-transform: uppercase;
@@ -274,85 +279,68 @@ section{
 
 footer{
 
-	p{color:#fff;}
+
+
+	p{color:#000;}
 	h5{
-		color:#fff;
-		font-size: 20px;
+		color:#000;
+		font-size: 22px;
 		font-weight: bold;
 	}
 	.nav-link{
-		color: #fff;
+		color: #000;
 		transition: all 300ms ease;
 	}
 
 	.nav-link:hover{
-		color: #000;
-		transition: all 300ms ease;
+		color: #D51A3C;
 	}	
 
 	.footer-top{
 
 		.nav-link{
-			font-size: 20px;
+			font-size: 16px;
 		    padding-left: 0px;
 		}
 
 		.subscribe{
 			.form-control{
-			    background-color: #FEBD17;
-			    border: 2px solid #FEBD17;
+			    background-color: #ECECEC;
+			    border: 2px solid #ECECEC;
 			    border-radius: 3rem;
 			}
 			.btn-subs{
-				background-color: #FEBD17;
-			    border: 2px solid #FEBD17;
+				background-color: #ECECEC;
+			    border: 2px solid #ECECEC;
 			    border-radius: 3rem;
 			    transition: all 300ms ease;
 
 			    i{
 					width: 37px;
 					height: 37px;
-					color: #000;
+					color: #fff;
 					border: 2px solid #000;
 					border-radius: 50%;
 					font-size: 20px;
 					display: table-cell;
 					text-align: center;
 					vertical-align: middle;
+					background-color: #000;
 					transition: all 300ms ease;
 			    }
 			}
 
 			.btn-subs:hover{
-				i{
-					border: 2px solid #fff;
-					color: #fff;
-				}
+				i{background-color: transparent;}
 			}
 		}
 
-		#social{
-			.nav-item{
-				margin-bottom: 1rem;
-			}
+		.social-media{
+
 			.nav-link{
-				display: table-cell;
-				width: 37px;
-				height: 37px;
-				padding: 0;
-				text-align: center;
-				vertical-align: middle;
-				background-color: #FEBD17;
-			    border-radius: 50%;
-			    color: #fff;
-			    border: 2px solid #FEBD17;
-	    		transition: all 300ms ease;
+				font-size: 18px;
 			}
-			.nav-link:hover{
-				color: #fff;
-				border: 2px solid #fff;
-				background-color: transparent;
-			}
+
 		}
 
 
@@ -361,11 +349,30 @@ footer{
 	.footer-bottom{
 
 		.nav-link, .copyright, p{
-			font-size: 14px;
+			font-size: 12px;
 		    padding-bottom: 0px;
+		    padding-left:0px;
 		}
 		p{margin-bottom: 0px;}		
 
+	}
+
+	.footer-map{
+		background-color: #D51A3C;
+		overflow: hidden;
+		border-radius: 1rem;
+
+		.contact-us-link{
+		    width: 100%;
+		    text-decoration: none;
+		    display: block;
+		    padding: 1rem;
+
+			span{
+				color: #fff;
+				text-transform: uppercase;
+			}
+		}
 	}
 
 } 

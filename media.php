@@ -13,12 +13,8 @@
             <div class="container">
               <div class="row vh-100 d-flex align-items-center">
                 <div class="col-md-7">
-                  <h1 class="banner-title">Facility <br>Management <br>Solution</h1>
+                  <h1 class="banner-title">Media</h1>
                   <div class="spacer-40"></div>
-                  <a href="#" class="btn btn-tmco btn-red">
-                    Explore Us 
-                    <i class="fa-solid fa-arrow-right fa-mar-left-20"></i>
-                  </a>
                 </div>
                 <div class="col-md-5"></div>
               </div>              
@@ -27,36 +23,11 @@
 
         </div>
         
-
       </section>
 
-      <section id="counter" class="vh-100" data-scroll-section>
+      <section id="" class="vh-100" data-scroll-section>
         <div class="spacer-40"></div>
 
-        <div class="container">
-
-          <div class="counter-list">
-
-            <div class="row d-flex align-items-start">
-
-              <div class="col-md-4">
-                
-
-              </div>
-
-              <div class="col-md-4">
-                
-              </div>
-
-              <div class="col-md-4">
-                
-              </div>
-              
-            </div>            
-
-          </div>
-
-        </div>
         
         <div class="spacer-40"></div>
       </section>
