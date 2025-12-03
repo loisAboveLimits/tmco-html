@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Janna-LT-Regular";
+  src: url('Janna-LT-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Janna-LT-Bold";
+  src: url('Janna-LT-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url('poppins.regular.ttf');
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url('poppins.bold.ttf');
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url('poppins.light.ttf');
+}
+
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url('poppins.extralight.ttf');
+}
+
+
+
