@@ -23,7 +23,7 @@ a:hover{
 }
  
 p{
-	font-size: 20px;
+	font-size: 22px;
 	font-family: "Poppins-Regular";
 	color: #101729;
 }
@@ -116,6 +116,8 @@ div{
 .bg-yellow{background-color: #FEBD17;}
 .bg-white{background-color: #fff;}
 .bg-blue{background-color: #8095E4;}
+.bg-blue-green{background-color: #005A70;}
+
 
 .vh-100-min{min-height: 100vh;}
 
@@ -258,21 +260,6 @@ section{
 		text-transform: uppercase;
 	}
 
-	.banner-caption{
-
-	    position: absolute;
-	    display: block;
-	    width: 100%;
-	    top: 0;
-	    z-index: 1;
-
-		.banner-title{
-			font-size: 80px;
-			color: #fff;
-			text-transform: uppercase;
-		}		
-
-	}
 
 
 } 
@@ -376,4 +363,53 @@ footer{
 	}
 
 } 
+
+#banner{
+
+	.banner-caption{
+
+	    position: absolute;
+	    display: block;
+	    width: 100%;
+	    top: 0;
+	    z-index: 1;
+
+		.banner-title{
+			font-size: 80px;
+			color: #fff;
+			text-transform: uppercase;
+		}		
+
+	}
+}
+
+#counter{
+
+	.counter-list{
+
+		.counter-title{
+			font-family: "Poppins-Light";
+			color: #fff;
+			font-size: 30px;
+			text-transform: uppercase;
+			margin: 0;
+			width: fit-content;
+			display: block;
+		}
+
+		.counter-value{
+			font-family: "Poppins-Bold";
+			color: #fff;
+			font-size: 60px;
+			text-transform: uppercase;			
+			margin: 0;
+			line-height: 0.5;
+		}
+
+
+	}
+
+}
+
+#video{overflow: hidden;}
 

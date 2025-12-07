@@ -245,6 +245,11 @@ jQuery(window).on("load", function(){
 
 	});	
 
+	jQuery(".counter-title").each(function(){
+		var getLength = jQuery(this).width()-30;
+		jQuery(this).parent().find(".counter-value").css("text-indent",getLength+"px");
+	});
+
 
 	checkPosition(scroll);
 

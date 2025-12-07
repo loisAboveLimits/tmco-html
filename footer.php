@@ -22,9 +22,15 @@
                                     <div class="col-md-4">
                                         <h5>Services</h5>
                                         <ul class="nav flex-column">
-                                            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-                                            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-                                            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                                            <li class="nav-item">
+                                                <a href="products-services.php" class="nav-link">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="products-services.php" class="nav-link">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="products-services.php" class="nav-link">Services</a>
+                                            </li>
                                         </ul>
                                         <div class="spacer-40"></div>
                                     </div>
@@ -32,9 +38,15 @@
                                     <div class="col-md-4">
                                         <h5>Explore</h5>
                                         <ul class="nav flex-column">
-                                            <li class="nav-item"><a href="" class="nav-link">Products</a></li>
-                                            <li class="nav-item"><a href="" class="nav-link">Partners</a></li>
-                                            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                                            <li class="nav-item">
+                                                <a href="products-services.php" class="nav-link">Products</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="partners.php" class="nav-link">Partners</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="about.php" class="nav-link">About</a>
+                                            </li>
                                         </ul>                                        
 
                                         <div class="spacer-40"></div>
@@ -59,17 +71,17 @@
                                         <div class="social-media">
                                             <ul class="nav">
                                                 <li class="nav-item">
-                                                    <a href="" class="nav-link">
+                                                    <a href="https://instagram.com" class="nav-link" target="_new">
                                                         <i class="fa-brands fa-instagram"></i>
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="" class="nav-link">
+                                                    <a href="https://linkedin.com" class="nav-link" target="_new">
                                                         <i class="fa-brands fa-linkedin-in"></i>
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="" class="nav-link">
+                                                    <a href="https://x.com" class="nav-link" target="_new">
                                                         <i class="fa-brands fa-x-twitter"></i>
                                                     </a>
                                                 </li>
@@ -95,8 +107,16 @@
 
                                     <div class="col-md-4">
                                         <ul class="nav">
-                                            <li class="nav-item"><a href="" class="nav-link">PRIVACY POLICY</a></li>
-                                            <li class="nav-item"><a href="" class="nav-link">TERMS & CONDITIONS</a></li>
+                                            <li class="nav-item">
+                                                <a href="privacy-policy.php" class="nav-link">
+                                                    PRIVACY POLICY
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="terms-conditions.php" class="nav-link">
+                                                    TERMS & CONDITIONS
+                                                </a>
+                                            </li>
                                         </ul>                                         
                                         
                                     </div>
