@@ -3,7 +3,7 @@
 html{scroll-behavior: smooth;}
 html, body{
 	font-family: "Poppins-Regular";
-	background-color: #656565;
+	// background-color: #656565;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -166,6 +166,20 @@ div{
 	border: 1px solid #fff;
 	background-color: transparent;
 }
+
+.btn-red-light{
+	color: #fff;
+	border-radius: 1rem;
+	background-color: #D51A3C;
+	border: 1px solid #f81f47;
+	transition: all 300ms ease;
+}
+.btn-red-light:hover{
+	color: #000;
+	border: 1px solid #000;
+	background-color: transparent;
+}
+
 .btn-transparent{
 	font-size: 14px;
     border-radius: 3rem;
@@ -254,13 +268,12 @@ section{
 	font-family: "Poppins-Regular";
 
 	.section-title{
-		font-family: "Poppins-Regular";
+		font-family: "Poppins-Bold";
 		font-size: 60px;
 		line-height: 1;
 		text-transform: uppercase;
+		color: #005A70;
 	}
-
-
 
 } 
 
@@ -412,4 +425,54 @@ footer{
 }
 
 #video{overflow: hidden;}
+
+#services{
+
+	position: relative;
+
+	#services-slide{
+
+		.services-count{
+			font-size: 30px;
+			margin-bottom: 0px;
+			font-family: "Poppins-Light";
+		}
+
+		hr{
+		    border: 3px solid #C6C6C6;
+		    margin: 0;
+		}
+
+		.services-slide-title{
+			font-size: 20px;
+			margin-bottom: 0px;		
+		}
+
+		.owl-dots{
+
+			margin-top: 40px;
+
+			.owl-dot{
+				background-color: #E0E0E0;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				margin: 0px 3px;
+				transition: all 300ms ease;
+			}
+			.owl-dot.active{
+				background-color: #005A70;
+				transition: all 300ms ease;
+			}
+		}
+	}
+
+	.service-more{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+	}
+
+}
 

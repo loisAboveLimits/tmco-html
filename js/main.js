@@ -49,6 +49,7 @@ jQuery(window).on("load", function(){
          responsiveClass: true,
          mouseDrag: false,
          touchDrag: false,
+
          autoplayHoverPause: true,
          rtl: sliderlang,
          responsive: { 
@@ -58,19 +59,22 @@ jQuery(window).on("load", function(){
          },
     });	
 
-	/*--- ads list --- */
-	jQuery("#ads-list").owlCarousel({
-	     loop: true,
-	     dots: false,
-	     nav: false,
-	     autoplay: true, 
-	     margin:0,        
-	     responsiveClass: true,
-	     mouseDrag: false,
-	     touchDrag: false,
-	     autoplayHoverPause: true,
-	     smartSpeed:450,
-	     rtl: sliderlang,
+	/*--- services list --- */
+	jQuery("#services-slide").owlCarousel({
+		loop: true,
+		dots: true,
+		nav: false,
+		margin:0,  
+		autoplayTimeout: 3000,  // 3 seconds
+		animateOut: 'animate__fadeOut', // Fade out class
+		animateIn: 'animate__fadeIn',   // Fade in class
+		responsiveClass: true,
+		mouseDrag: false,
+		touchDrag: false,
+		autoplay: true,
+		autoplayHoverPause: true,
+		// smartSpeed:450,
+		rtl: sliderlang,
 	     responsive: { 
 	       0: { items: 1 }, 
 	       600: { items: 1 }, 
