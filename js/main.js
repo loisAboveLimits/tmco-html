@@ -82,24 +82,21 @@ jQuery(window).on("load", function(){
 	     },
 	});
 
-	/*--- store list --- */
-	// jQuery("#consultation-store-list, #courses-store-list, #product-store-list").owlCarousel({
-	//      loop: true,
-	//      dots: false,
-	//      nav: false,
-	//      autoplay: false, 
-	//      margin:20,       
-	//      responsiveClass: true,
-	//      mouseDrag: true,
-	//      touchDrag: true,
-	//      smartSpeed:450,
-	//      rtl: sliderlang,
-	//      responsive: { 
-	//        0: { items: 2 }, 
-	//        600: { items: 2 }, 
-	//        1000: { items: 3 } 
-	//      },
-	// });
+    jQuery('#media-slide').owlCarousel({
+        loop: true,
+        center: true,
+        items: 5,
+        margin: -100,
+        autoplay: false,
+        smartSpeed: 700,
+        dots: false,
+        nav: false,
+        responsive: {
+	       0: { items: 1 }, 
+	       600: { items: 3 }, 
+	       1000: { items: 5 } 
+        }
+    });
 
 	jQuery(".store-list").each(function(){
 

@@ -272,14 +272,20 @@
 
     <div class="container">
       <center>
-        <h2 class="section-title">Partners</h2>
+        <h2 class="section-title">Media</h2>
       </center> 
 
-      <div class="spacer-40"></div>
+      <div class="spacer-80"></div>
 
-      <div id="media-slide">
+      <div id="media-slide" class="owl-carousel card-carousel">
+
+        <?php for($i = 1; $i < 6; $i++){?>
+
+        <div class="item">
+          <img src="img/media/media<?php print $i;?>.png" alt="media" class="img-fluid">
+        </div>
         
-        
+        <?php } ?>
       </div>     
 
 
